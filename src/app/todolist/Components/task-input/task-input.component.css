@@ -1,0 +1,23 @@
+.btn {
+    border-radius: 0;
+  }
+  .custom-button {
+    background-color: var(--main-blue);
+    color: white;
+  }
+  .custom-button:hover {
+    transition: ease .3s;
+    background-color: var(--middle-blue);
+    color: white;
+  }
+  .form-control {
+    border-radius: 0;
+  }
+  .form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #222020;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgba(217, 253, 13, 0.25);
+  }
+  

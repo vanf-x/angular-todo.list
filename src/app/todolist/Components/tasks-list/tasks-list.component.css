@@ -1,0 +1,50 @@
+.bi:hover {
+    color: rgb(170, 168, 168) !important;
+    transition: ease 0.3s;
+  }
+  
+  .list-group-item:nth-child(odd) {
+    background-color: #9ccde23a;
+    background-color: var(--soft-blue);
+  }
+  
+  .list-group-item:nth-child(even) {
+    background-color: #ffffff;
+  }
+  .form-check-input:focus {
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  }
+  .form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    background-color: var(--main-blue);
+    border-color: var(--main-blue);
+  }
+  .form-check-input:focus {
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  }
+  .form-check-input:checked {
+    background-color: #fff;
+    border-color: #afafaf;
+  }
+  .form-check-input:checked[type="checkbox"] {
+    --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
+  }
+  .task-buttons {
+    display: flex;
+  }
+  .task-buttons button {
+    margin-left: 5px;
+  }
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .checked{
+    text-decoration: line-through;
+  }

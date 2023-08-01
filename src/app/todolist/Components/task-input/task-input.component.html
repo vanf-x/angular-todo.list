@@ -1,0 +1,17 @@
+<div class="input-group mb-3">
+  <input
+    type="text"
+    class="form-control text-center fst-italic"
+    placeholder="what needs to be done?"
+    aria-describedby="button-addon2"
+    [(ngModel)]="taskInput"
+  />
+  <button
+    class="btn ms-1 custom-button"
+    type="button"
+    id="button-addon2"
+    (click)="sendInput()"
+  >
+    <i class="bi bi-plus-lg"></i>
+  </button>
+</div>

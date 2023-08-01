@@ -1,0 +1,32 @@
+.progress {
+    height: 30px; /* Puedes ajustar la altura de la barra de progreso aquí */
+    border-radius: 0; /* Opcional: para agregar esquinas redondeadas */
+    background-color: #fff;
+  }
+  .progress-bar {
+    background-color: #fbec49; /* Opcional: para agregar un fondo a la barra de progreso */
+    text-align: center; /* Opcional: para centrar el texto dentro de la barra de progreso */
+    color: #000000; /* Opcional: para cambiar el color del texto en la barra de progreso */
+    font-weight: bold; /* Opcional: para resaltar el texto en la barra de progreso */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+  .progress-container {
+    max-width: 450px; /* Puedes ajustar el ancho aquí según tus necesidades */
+    min-width: 200px; /* Opcional: para limitar el ancho máximo de la barra de progreso */
+    background-color: #f0f0f0; /* Opcional: para agregar un fondo a la barra de progreso */
+    border-radius: 0; /* Opcional: para agregar esquinas redondeadas */
+    overflow: hidden; /* Opcional: para evitar que el contenido desborde */
+    position: relative;
+    border: 1px solid #afafaf42;
+  }
+  .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000; /* Color del texto */
+    z-index: 1;
+  }
