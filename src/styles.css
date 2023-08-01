@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: var(--main-blue);
+  }
+  /*AZUL 4e9fc3*/
+:root {
+    --main-blue: #4e9fc3;
+    --middle-blue: #77bddb;
+    --soft-blue: #9ccde2;
+  }
